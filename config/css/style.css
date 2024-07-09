@@ -1,5 +1,59 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* FIM - reset */
+/* definição de variáveis */
+:root {
+    font-size: 62.5%;
+    --bg-color-topo: #F99200;
+    --bg-color-body: #CCC;
+    --text-color: black;
+}
+/* FIM - definição de variáveis */
+/* Faixa superior do topo */
+body:before {
+    content: '';
+    background: var(--bg-color-topo);
+    position: absolute;
+    width: 100vw;
+    height: 10rem;
+    z-index: -1;
+}
+/* FIM - faixa superior do topo*/
+/* Definições gerais */
+body {
+    background: var(--bg-color-body);
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#page {
+    width: 90%;
+    margin: 0 auto;
+}
+/* FIM - definições gerais */
+/* Cabeçalho */
+#topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topo img {
+    width: 9rem;
+    border-radius: 50%;
+}
+#topo nav ul{
+    margin-top: -1rem;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+#topo ul a {
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+/* FIM - Cabeçalho */
