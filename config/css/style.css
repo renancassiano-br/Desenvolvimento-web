@@ -96,8 +96,8 @@ span {
 
 section {
     margin-top: 2rem;
-    padding-bottom: .5rem;
+    padding: 1rem;
     border-radius: .7rem;
-    box-shadow: var(--text-color) .15rem .25rem .1rem;
+    box-shadow: var(--text-color) .05rem .15rem .125rem .05rem; 
 }
 /* FIM - conteúdo principal */
