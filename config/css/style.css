@@ -9,7 +9,7 @@
 :root {
     font-size: 62.5%;
     --bg-color-topo: #F99200;
-    --bg-color-body: #CCC;
+    --bg-color-body: white;
     --text-color: black;
 }
 /* FIM - definição de variáveis */
@@ -28,12 +28,35 @@ body {
     background: var(--bg-color-body);
     color: var(--text-color);
     font-size: 1.6rem;
+    font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #page {
     width: 90%;
     margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: var(--text-color);
+    background: var(--bg-color-topo);
+    border-radius: .7rem;
+    padding: .2rem;
+}
+
+h1, h2 {
+    color: var(--bg-color-topo);
+    margin-bottom: .5rem;
+}
+span {
+    font-weight: bold;
 }
 /* FIM - definições gerais */
 /* Cabeçalho */
@@ -53,7 +76,24 @@ body {
     gap: 1.5rem;
 }
 #topo ul a {
-    text-decoration: none;
     font-size: 2.5rem;
 }
+#topo a:hover {
+    background: var(--text-color);
+    color: var(--bg-color-topo);
+}
 /* FIM - Cabeçalho */
+/* Conteúdo principal */
+#content {
+    width: 90vw;
+    margin: 2rem auto;
+    padding: .5rem;
+}
+
+section {
+    margin-top: 2rem;
+    padding-bottom: .5rem;
+    border-radius: .7rem;
+    box-shadow: var(--text-color) .15rem .25rem .1rem;
+}
+/* FIM - conteúdo principal */
