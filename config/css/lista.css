@@ -1,0 +1,19 @@
+.lista ul {
+    list-style: disc;
+}
+ul#circulo {
+    list-style: circle;
+}
+ul#quadrado {
+    list-style: square;
+}
+
+.lista ul, .lista ol, .lista dl {
+    padding-left: 3rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
