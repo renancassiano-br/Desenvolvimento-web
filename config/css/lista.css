@@ -16,4 +16,5 @@ ul#quadrado {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    overflow-x: scroll;
 }
