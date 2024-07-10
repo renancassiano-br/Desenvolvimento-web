@@ -1,0 +1,11 @@
+#código {
+    position: relative;
+}
+#codigo img {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+#codigo p {
+    margin-bottom: .5rem;
+}
