@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="./config/img/fav-rc.png" type="image/x-icon">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Base</title>
+
+        <link rel="stylesheet" href="./config/css/style.css">
+        <link rel="stylesheet" href="./config/css/tabela.css">
+
+    </head>
+    <body>
+        <div id="page">
+            <header id="topo">
+                <img src="./config/img/fav-rc.png" alt="Logo com as letras 'R' e 'C' na cor preta e estilizadas.">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="https://renancassiano-br.github.io/profile-links/" target="_blank">Sobre</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="content">
+                <h2>Tabela</h2>
+                <p>
+                    Arquivo html trabalhando com tabela.
+                </p>
+                <hr id="separador">
+                <!-- <fieldset id="teste"> -->
+                    <!-- <legend>table</legend> -->
+                    <div id="codigo">
+                        <section>
+                            <h3>Tabela básica.</h3>
+                            <div class="tabela">
+                                <table>
+                                    <tr>
+                                        <td>Linha 1 coluna 1</td>
+                                        <td>Linha 1 coluna 2</td>
+                                        <td>Linha 1 coluna 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linha 2 coluna 1</td>
+                                        <td>Linha 2 coluna 2</td>
+                                        <td>Linha 2 coluna 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linha 3 coluna 1</td>
+                                        <td>Linha 3 coluna 2</td>
+                                        <td>Linha 3 coluna 3</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                    <tr>
+                                        <td>Linha 1 coluna 1</td>
+                                        <td colspan="2">Linha 1 coluna 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linha 2 coluna 1</td>
+                                        <td>Linha 2 coluna 2</td>
+                                        <td>Linha 2 coluna 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linha 3 coluna 1</td>
+                                        <td>Linha 3 coluna 2</td>
+                                        <td>Linha 3 coluna 3</td>
+                                    </tr>
+                                </table>
+                                <table>
+                                    <tr>
+                                        <td>Linha 1 coluna 1</td>
+                                        <td>Linha 1 coluna 2</td>
+                                        <td rowspan="2">Linha 1 coluna 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linha 2 coluna 1</td>
+                                        <td>Linha 2 coluna 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Linha 3 coluna 1</td>
+                                        <td>Linha 3 coluna 2</td>
+                                        <td>Linha 3 coluna 3</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h3>Tabela completa</h3>
+                            <div class="tabela">
+                                <table>
+                                    <caption> Descrição da tabela 1.</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Cabeçalho 1</th>
+                                            <th>Cabeçalho 2</th>
+                                            <th>Cabeçalho 3</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>linha 1 dado 1</td>
+                                            <td>linha 1 dado 2</td>
+                                            <td>linha 1 dado 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>linha 2 dado 1</td>
+                                            <td>linha 2 dado 2</td>
+                                            <td>linha 2 dado 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>linha 3 dado 1</td>
+                                            <td>linha 3 dado 2</td>
+                                            <td>linha 3 dado 3</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td>rodapé 1</td>
+                                            <td>rodapé 2</td>
+                                            <td>rodapé 3</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <table>
+                                    <caption> Descrição da tabela 2.</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Cabeçalho 1</th>
+                                            <th>Cabeçalho 2</th>
+                                            <th>Cabeçalho 3</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>linha 1 dado 1</td>
+                                            <td>linha 1 dado 2</td>
+                                            <td>linha 1 dado 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>linha 2 dado 1</td>
+                                            <td>linha 2 dado 2</td>
+                                            <td>linha 2 dado 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>linha 3 dado 1</td>
+                                            <td>linha 3 dado 2</td>
+                                            <td>linha 3 dado 3</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="2">rodapé 1</td>
+                                            <!-- <td>rodapé 2</td> -->
+                                            <td>rodapé 3</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <table>
+                                    <caption> Descrição da tabela 3.</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Cabeçalho 1</th>
+                                            <th>Cabeçalho 2</th>
+                                            <th>Cabeçalho 3</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th rowspan="3">linha 1 cabeçalho</th>
+                                            <td>linha 1 dado 2</td>
+                                            <td>linha 1 dado 3</td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <td>linha 2 dado 1</td> -->
+                                            <td>linha 2 dado 2</td>
+                                            <td>linha 2 dado 3</td>
+                                        </tr>
+                                        <tr>
+                                            <!-- <td>linha 3 dado 1</td> -->
+                                            <td>linha 3 dado 2</td>
+                                            <td>linha 3 dado 3</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>rodapé 1 cabeçalho</th>
+                                            <td>rodapé 2</td>
+                                            <td>rodapé 3</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </section>
+                    </div>
+                <!-- </fieldset> -->
+            </main>
+        </div>
+    </body>
+</html>

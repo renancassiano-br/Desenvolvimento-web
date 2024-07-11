@@ -1,0 +1,29 @@
+#teste {
+    /* border: 3px solid red; */
+
+}
+fieldset {
+    position: relative;
+    /* min-height: 100vh; */
+
+    border: 3px solid red;
+}
+fieldset #codigo {
+    position: absolute;
+    max-width: 100%;
+}
+
+.tabela {
+    display: flex;
+    gap: 1.5rem;
+    overflow: scroll;
+    justify-content: space-between;
+}
+
+table, td, th {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+}
