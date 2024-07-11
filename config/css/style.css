@@ -93,8 +93,15 @@ span {
 #separador {
     margin: 1rem auto;
 }
-
+#secoes {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 section {
+    width: 100%;
+    max-width: 40rem;
     margin-top: 2rem;
     padding: 1rem;
     border-radius: .7rem;
