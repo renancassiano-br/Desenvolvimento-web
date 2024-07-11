@@ -1,0 +1,23 @@
+
+#codigo {
+    display: flex;
+    flex-direction: column;
+}
+table, th, td {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+    padding: 1rem;
+}
+#codigo p, table{
+    margin: 1rem .5rem;
+}
+#codigo q {
+    background: var(--bg-color-topo);
+    font-size: large;
+    border-radius: 7px 3px 7px 3px;
+    line-height: 2.3rem;
+    margin: .5rem;
+    padding: 1rem;
+}
