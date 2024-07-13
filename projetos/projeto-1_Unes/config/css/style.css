@@ -46,3 +46,12 @@ body {
     border-right: 1px solid var(--base-color);
 }
 /* FIM - Topo */
+/* Conteúdo */
+#content, #content p {
+    margin: 1.5rem 0;
+    text-align: justify;
+}
+#content h1{
+    color: var(--base-color);
+}
+/* FIM - Conteúdo */
