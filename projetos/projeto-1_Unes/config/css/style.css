@@ -5,13 +5,16 @@
 }
 /* Definições gerais */
 :root {
-    --nav-text-color: #383f5d;
+    --base-color: #383f5d;
+    --base-color-light: #6d78a8;
     --text-color: black;
     --bg-color: white;
+    font-size: 62.5%;
 }
 
 body {
     background: var(--bg-color) url(../img/fundo.png);
+    font-size: 1.6rem;
 }
 
 #page {
@@ -19,4 +22,27 @@ body {
     margin: 0 auto;
 }
 
+#topo, 
+#menu-topo ul {
+    display: flex;
+}
 /* FIM - Definições gerais */
+/* Topo */
+#topo {
+    justify-content: space-between;
+    padding: 2.35rem;
+    align-items: center;
+    color: var(--base-color);
+}
+
+#menu-topo ul {
+    gap: .5rem;
+    list-style: none;
+}
+#menu-topo ul li {
+    padding: .3rem;
+    border-radius: 3px;
+    border-left: 1px solid var(--base-color);
+    border-right: 1px solid var(--base-color);
+}
+/* FIM - Topo */
