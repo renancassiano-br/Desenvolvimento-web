@@ -64,12 +64,24 @@ footer a:hover {
 }
 /* FIM - Topo */
 /* Conteúdo */
-#content, #content p {
+#content, 
+#content p {
     margin: 1.5rem 0;
     text-align: justify;
+    padding: .5rem .2rem;
 }
-#content h1{
+#content ol {
+    margin-left: 3rem;
+    padding: 1rem .5rem;
+}
+#content h1, 
+#content h2, 
+#content hr {
     color: var(--base-color);
+}
+#content hr {
+    margin: 2rem 0;
+    border: 1px solid var(--base-color-light);
 }
 /* FIM - Conteúdo */
 /* Rodapé */
