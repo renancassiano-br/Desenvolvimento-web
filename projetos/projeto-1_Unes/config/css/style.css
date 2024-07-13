@@ -27,6 +27,12 @@ body {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+    padding: .3rem;
+    border-radius: 3px;
+}
+
 #menu-topo ul li a:hover, 
 footer a:hover {
     background: var(--base-color-light);
@@ -46,12 +52,8 @@ footer a:hover {
     list-style: none;
 }
 #menu-topo ul li a {
-    padding: .3rem;
-    border-radius: 3px;
     border-left: 1px solid var(--base-color);
     border-right: 1px solid var(--base-color);
-
-    text-decoration: none;
 }
 /* FIM - Topo */
 /* Conteúdo */
