@@ -34,6 +34,7 @@ footer {
 #contato {
     justify-content: space-between;
     padding: 2rem;
+    gap: 2rem;
 }
 
 img {
@@ -122,6 +123,17 @@ footer {
    }
    #topo img {
         max-width: 12rem;
+   }
+   #contato {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+   }
+
+   #contato iframe,
+   #contato section {
+    max-width: 95%;
+    height: 30rem;
    }
 }
 /* FIM - Media query */
