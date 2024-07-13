@@ -82,3 +82,15 @@ footer {
     color: var(--base-color-light);
 }
 /* FIM - Rodapé */
+/* Media query */
+@media (max-width: 600px) {
+   #topo {
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+   }
+   #topo img {
+        max-width: 12rem;
+   }
+}
+/* FIM - Media query */
