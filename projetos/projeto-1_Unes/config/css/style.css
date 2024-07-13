@@ -118,25 +118,26 @@ footer {
 }
 /* FIM - Rodapé */
 /* Media query */
-@media (max-width: 600px) {
-   #topo {
+@media (max-width: 640px) {
+    #topo {
         flex-direction: column;
         gap: 1.5rem;
         justify-content: center;
-   }
-   #topo img {
+    }
+    #topo img {
         max-width: 12rem;
-   }
-   #contato {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-   }
-
-   #contato iframe,
-   #contato section {
-    max-width: 95%;
-    height: 30rem;
-   }
+    }
+    #contato {
+        display: flex;
+        flex-direction: column;
+        /* gap: 2rem; */
+    }
+    
+    #contato iframe,
+    #contato section {
+        max-width: 95%;
+        height: 30rem;
+        margin-bottom: 4rem;
+    }
 }
 /* FIM - Media query */
