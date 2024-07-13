@@ -26,6 +26,12 @@ body {
 #menu-topo ul {
     display: flex;
 }
+
+#menu-topo ul li a:hover, 
+footer a:hover {
+    background: var(--base-color-light);
+    color: var(--bg-color);
+}
 /* FIM - Definições gerais */
 /* Topo */
 #topo {
@@ -39,11 +45,13 @@ body {
     gap: .5rem;
     list-style: none;
 }
-#menu-topo ul li {
+#menu-topo ul li a {
     padding: .3rem;
     border-radius: 3px;
     border-left: 1px solid var(--base-color);
     border-right: 1px solid var(--base-color);
+
+    text-decoration: none;
 }
 /* FIM - Topo */
 /* Conteúdo */
